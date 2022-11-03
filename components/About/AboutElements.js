@@ -14,5 +14,11 @@ export const AboutContent = styled.div`
   color: ${COLORS.text};
   span {
     color: ${COLORS.primary};
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+      text-decoration: underline;
+      transition: all 0.5s;
+    }
   }
 `;

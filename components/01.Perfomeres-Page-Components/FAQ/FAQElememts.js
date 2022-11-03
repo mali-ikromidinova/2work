@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
+import { COLORS } from "../../../styles/globalStyles";
 
 export const FAQSec = styled.section`
   margin: 40px 0;
@@ -28,4 +29,9 @@ export const FAQItemLink = styled.a`
   font-size: 18px;
   line-height: 22px;
   color: #828282;
+  transition: all 0.5s;
+  &:hover {
+    color: ${COLORS.primary};
+    transition: all 0.5s;
+  }
 `;

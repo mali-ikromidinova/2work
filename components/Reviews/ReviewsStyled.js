@@ -63,11 +63,20 @@ export const ReviewedRating = styled.p`
   font-size: 12px;
   line-height: 15px;
   color: ${COLORS.text};
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0 !important;
   span {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #828282;
+    display: flex;
+    align-items: center;
+    svg {
+      fill: #ffa200;
+      font-size: 16px;
+    }
   }
 `;
 export const ReviewScore = styled.p`

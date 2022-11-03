@@ -1,14 +1,14 @@
 .swiper-button-next,
 .swiper-button-prev {
   background: rgba(36, 36, 36, 0.3);
-  width: 50px;
-  height: 50px;
+  width: 50px !important;
+  height: 50px !important;
   border-radius: 50%;
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 18px;
+  font-size: 18px !important;
   color: white;
   font-weight: 600;
   text-align: center;

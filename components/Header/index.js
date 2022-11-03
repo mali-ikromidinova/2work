@@ -48,6 +48,7 @@ const Header = () => {
           <HeaderNav>
             <HeaderNavList>
               <DropdownStyled
+                text={langOptions[0].text}
                 defaultValue={langOptions[0].text}
                 options={langOptions}
               />

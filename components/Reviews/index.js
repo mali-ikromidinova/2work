@@ -52,7 +52,12 @@ const Reviews = () => {
                     <ReviewText>{review.review}</ReviewText>
                     <ReviewDate>{review.date}</ReviewDate>
                     <ReviewedPerfomer>
-                      <ReviewedPic layout="fill" src={review.img} />
+                      <ReviewedPic
+                        width={60}
+                        height={60}
+                        src={review.img}
+                        alt="review"
+                      />
                       <ReviewedData>
                         <ReviewedName>{review.name}</ReviewedName>
                         <ReviewedRating>

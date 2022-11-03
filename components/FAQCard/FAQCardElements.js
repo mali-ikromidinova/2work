@@ -30,7 +30,7 @@ export const FAQCardItem = styled.a`
   text-decoration: none;
   transition: all 0.5s ease-in;
   &:hover {
-    color: ${COLORS.primary};
+    color: ${COLORS.primary} !important;
     transition: all 0.5s ease-in;
   }
 `;
