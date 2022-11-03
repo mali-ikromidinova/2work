@@ -1,0 +1,61 @@
+.tabs {
+  text-align: center;
+  cursor: pointer;
+}
+
+.active-tabs {
+  transition: all 0.3s;
+  border-bottom: 2px solid #7cc300;
+}
+.active-tabs div {
+  transition: all 0.3s;
+  color: #242424;
+}
+.content {
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.active-content {
+  display: block;
+}
+
+.telegram {
+  background-color: #039be5;
+  border-radius: 12px 0 0 0;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.instagram {
+  background: linear-gradient(135deg, #fade1e 0%, #f83286 53.96%, #9843f9 100%);
+}
+
+.facebook {
+  background-color: #3b5998;
+  border-radius: 0 0 0 12px;
+}
+
+.ui.icon.input > i.icon {
+  left: 0;
+  margin-left: 7px;
+}
+
+.ui.icon.input > input {
+  padding-left: 2.8em !important;
+}
+
+.ui.input > input {
+  border-radius: 100px !important;
+}
+
+.ui.input.focus > input,
+.ui.input > input:focus {
+  border-color: #7cc300 !important;
+}
+.ui.dropdown > .text {
+  font-size: 16px;
+}
